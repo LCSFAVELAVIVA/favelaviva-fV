@@ -1,0 +1,48 @@
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background: #111;
+    color: #fff;
+    text-align: center;
+}
+
+header {
+    padding: 2em 1em;
+    background: #000;
+    color: gold;
+}
+
+.slogan {
+    font-size: 1.2em;
+    color: #b8860b;
+}
+
+.galeria {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 10px;
+    padding: 20px;
+}
+
+.galeria img {
+    width: 300px;
+    height: auto;
+    border-radius: 10px;
+}
+
+.contato {
+    margin: 30px;
+}
+
+.botao {
+    background: gold;
+    color: black;
+    padding: 10px 20px;
+    margin: 10px;
+    text-decoration: none;
+    border-radius: 5px;
+    font-weight: bold;
+}
